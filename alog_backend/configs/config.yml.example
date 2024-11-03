@@ -1,0 +1,27 @@
+app:
+  app_name: "a_log" # 应用名称
+  version: "v1.0.0" # 版本
+  port: xxxx    # 服务启用端口
+  run_mode: dev # 可选dev、release模式
+
+
+db:
+  addr: "localhost:3306" # db地址
+  user: "alog"              # user
+  password: "alog"        # password
+  database: "java_alog" # dbname
+  max_idle_conn: 2         # 最大空闲连接数
+  max_open_conn: 20         # 最大连接数
+  max_idle_time: 300        # 最大空闲时间
+
+log:
+  level: info # 日志等级
+  log_path: ./alog.log # 日志目录
+  file_name: running.log # 日志名称（默认分info 和 error两种）
+  max_size: 5  # 一个日志多少MB
+  max_backups: 5 # 最多保留多少个日志
+
+jwt:
+  secret: "jwt_secret_key" # jwt加密key
+  issuer: "jwt_issuer" # jwt签发者
+  expire_time: 60 * 60 * 24 * 3 # jwt过期时间

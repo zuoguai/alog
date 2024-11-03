@@ -1,0 +1,81 @@
+2024-11-02T16:52:38.840+0800	ERROR	handlers/login.go:49	login params invalid, user_name=,pass_word=
+
+2024-11-02T16:55:32.551+0800	ERROR	handlers/login.go:58	req_id:80bc92d4-1a42-441e-90c0-4268ebcb731e|LoginHandler|process login err:Error 1146 (42S02): Table 'alog_draft.t_user' doesn't exist
+2024-11-02T17:01:55.997+0800	ERROR	handlers/login.go:58	req_id:bbf88654-d7b8-49fc-8735-023ae0423a18|LoginHandler|process login err:record not found
+2024-11-02T17:04:47.418+0800	ERROR	handlers/login.go:58	req_id:fcf8fb91-4d81-4e60-89b3-eadc323d2eb5|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-02T18:21:13.763+0800	ERROR	article/admin_create.go:56	create article by user_id:0 err:Error 1062 (23000): Duplicate entry '第一篇这是文章' for key 't_article.uni_t_article_title'
+
+2024-11-02T18:26:23.606+0800	ERROR	article/admin_del.go:54	del article by user_id:0 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:27:53.544+0800	ERROR	article/admin_del.go:55	del article by user_id:0 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:28:56.842+0800	ERROR	article/admin_del.go:55	del article by user_id:0 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:29:46.446+0800	ERROR	article/admin_del.go:55	del article by user_id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:31:02.905+0800	ERROR	article/admin_del.go:55	del article by user_id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:32:22.154+0800	ERROR	article/admin_del.go:55	del article by user_id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:33:29.464+0800	ERROR	article/guest_view.go:50	get article by id:0 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:34:30.301+0800	ERROR	article/guest_view.go:52	get article by id:0 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:35:19.513+0800	ERROR	article/guest_view.go:52	get article by id:0 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:35:39.241+0800	ERROR	article/guest_view.go:52	get article by id:0 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:38:24.232+0800	ERROR	article/guest_view.go:52	get article by id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:40:42.449+0800	ERROR	article/guest_view.go:52	get article by id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:40:47.735+0800	ERROR	article/admin_create.go:56	create article by user_id:0 err:Error 1062 (23000): Duplicate entry '第一篇这![zuoguai_2024-11-02_18-18-38](https://img.alowlife.' for key 't_article.uni_t_article_title'
+
+2024-11-02T18:43:46.579+0800	ERROR	article/admin_del.go:55	del article by user_id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:44:13.703+0800	ERROR	article/guest_view.go:52	get article by id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:45:18.606+0800	ERROR	article/guest_view.go:52	get article by id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:46:12.830+0800	ERROR	article/guest_view.go:52	get article by id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T18:46:56.499+0800	ERROR	article/guest_view.go:52	get article by id:1 err:invalid value, should be pointer to struct or slice
+
+2024-11-02T19:21:33.178+0800	ERROR	article/guest_list.go:34	ShouldBind list req:err+strconv.ParseUint: parsing "1,2,3": invalid syntax
+
+2024-11-02T19:23:17.001+0800	ERROR	article/guest_list.go:34	ShouldBind list req:err+strconv.ParseUint: parsing "[1,2,3,4]": invalid syntax
+
+2024-11-02T19:41:39.153+0800	ERROR	article/admin_del.go:55	del article by user_id:1 err:record not found
+
+2024-11-02T19:47:54.372+0800	ERROR	article/admin_modify.go:32	ShouldBind del article req:err+json: cannot unmarshal string into Go struct field ReqArticle.status of type uint
+
+2024-11-02T19:48:56.482+0800	ERROR	article/admin_modify.go:54	update article by user_id:0 err:content, title can not be empty
+
+2024-11-02T19:53:28.240+0800	ERROR	article/admin_modify.go:54	update article by user_id:0 err:no privileges
+
+2024-11-02T20:32:44.924+0800	ERROR	article/admin_create.go:53	create article by user_id:1 err:article already exists
+
+2024-11-02T20:34:19.972+0800	ERROR	article/admin_create.go:53	create article by user_id:1 err:article already exists
+
+2024-11-02T20:34:32.624+0800	ERROR	article/admin_create.go:53	create article by user_id:1 err:article already exists
+
+2024-11-02T20:36:14.273+0800	ERROR	article/admin_create.go:53	create article by user_id:1 err:article already exists
+
+2024-11-02T20:52:10.034+0800	ERROR	handlers/login.go:48	login params invalid, user_name=,pass_word=
+
+2024-11-02T20:52:21.292+0800	ERROR	handlers/login.go:48	login params invalid, user_name=,pass_word=
+
+2024-11-02T20:52:26.270+0800	ERROR	handlers/login.go:48	login params invalid, user_name=,pass_word=
+
+2024-11-02T20:54:44.344+0800	ERROR	handlers/login.go:48	login params invalid, username=,password=
+
+2024-11-02T20:55:16.711+0800	ERROR	handlers/login.go:48	login params invalid, username=,password=
+
+2024-11-02T20:58:19.408+0800	ERROR	handlers/login.go:48	login params invalid, username=,password=
+
+2024-11-02T21:00:06.451+0800	ERROR	handlers/login.go:48	login params invalid, username=,password=
+
+2024-11-02T21:00:24.324+0800	ERROR	handlers/login.go:48	login params invalid, username=,password=
+
+2024-11-02T22:25:00.177+0800	ERROR	article/guest_view.go:35	ShouldBind view req:err+strconv.ParseUint: parsing "undefined": invalid syntax
+

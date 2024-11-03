@@ -1,0 +1,24 @@
+2024-11-03T14:24:36.354+0800	ERROR	article/admin_create.go:53	create article by user_id:1 err:content, title length can not be less than 20
+
+2024-11-03T14:31:12.174+0800	ERROR	handlers/login.go:57	req_id:0b28a75a-abf0-4013-acbe-0a5a1876e882|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T14:31:50.878+0800	ERROR	handlers/login.go:57	req_id:6a4c3305-b7c0-4f60-817e-7610d388ecf2|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T14:32:39.876+0800	ERROR	handlers/login.go:57	req_id:a3a1a6f9-e34f-4310-9462-4962a548bc71|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T14:33:12.576+0800	ERROR	handlers/login.go:57	req_id:cbb353b5-7a66-4a81-b830-d7efdf89116d|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T14:33:46.838+0800	ERROR	handlers/login.go:57	req_id:01c9b8d3-f66f-48aa-ba22-7ea78df887ea|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T14:45:03.402+0800	ERROR	article/admin_create.go:53	create article by user_id:1 err:content, title length can not be less than 20
+
+2024-11-03T15:03:25.215+0800	ERROR	article/admin_create.go:55	create article by user_id:1 err:content, title can not be empty
+
+2024-11-03T15:06:56.791+0800	ERROR	article/admin_create.go:56	create article by user_id:1 err:content, title can not be empty
+
+2024-11-03T15:08:01.989+0800	ERROR	article/admin_create.go:56	create article by user_id:1 err:article already exists
+
+2024-11-03T15:20:25.588+0800	ERROR	article/admin_create.go:56	create article by user_id:1 err:content, title can not be empty
+
+2024-11-03T16:14:33.229+0800	ERROR	handlers/login.go:57	req_id:ce0f4ce1-3832-4adb-addc-0bb8f8c5a950|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T16:15:20.085+0800	ERROR	handlers/login.go:57	req_id:0e80e168-5ba5-41dd-8ad8-93c16173900f|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T16:20:38.851+0800	ERROR	handlers/login.go:57	req_id:b4cf891a-9663-4cd3-ac95-c112b2d84e65|LoginHandler|process login err:password error: crypto/bcrypt: hashedPassword is not the hash of the given password
+2024-11-03T17:34:42.803+0800	ERROR	article/guest_view.go:36	ShouldBind view req:err+strconv.ParseUint: parsing "undefined": invalid syntax
+
+2024-11-03T17:34:42.834+0800	ERROR	article/guest_view.go:36	ShouldBind view req:err+strconv.ParseUint: parsing "undefined": invalid syntax
+
